@@ -1,3 +1,15 @@
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 60px;          /* This size fits nicely in the nav bar */
+    height: 60px;
+    border-radius: 50%;   /* This turns the square image into a circle! */
+    object-fit: cover;    /* This ensures the moon art doesn't look squished */
+    border: 1px solid #ddd; /* A very light border to make it pop */
+}
 nav {
     display: flex;
     justify-content: space-between;
