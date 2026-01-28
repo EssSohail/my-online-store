@@ -140,3 +140,16 @@ footer {
     color: #999;
     font-size: 0.7rem;
 }
+footer {
+    background-color: #1a1a2e; /* The dark blue from your logo */
+    color: #f0e6d2;           /* A soft gold/cream color for the text */
+    padding: 40px 0;
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer p {
+    font-family: 'Playfair Display', serif; /* Trying the font here too */
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
