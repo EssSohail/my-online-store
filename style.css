@@ -37,6 +37,7 @@ body {
 }
 
 h1 {
+    width: 100%; /* This ensures it takes up the full width to center properly */
     font-weight: normal;
     letter-spacing: 4px;       /* Spaced out letters like a logo */
     text-transform: uppercase;
