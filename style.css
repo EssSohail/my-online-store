@@ -89,24 +89,6 @@ h1 {
     background-color: #fafafa; /* Slightly off-white card */
 }
 
-/* We use a more specific name to make it stronger */
-.product-container .product button {
-    background-color: #FFD700 !important; 
-    color: #1a1a2e !important;           
-    border: none;
-    padding: 12px 24px;
-    cursor: pointer;
-    font-family: 'Playfair Display', serif;
-    font-weight: bold;
-    transition: all 0.3s ease-in-out; /* Smooths everything */
-}
-
-/* This targets the hover specifically */
-.product-container .product button:hover {
-    background-color: #1a1a2e !important; 
-    color: #FFD700 !important;
-    transform: scale(1.1); /* This makes it grow */
-}
 .product img {
     width: 100%;
     margin-bottom: 15px;
