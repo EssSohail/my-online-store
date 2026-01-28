@@ -60,11 +60,11 @@ body {
 h1 {
     font-family: 'Playfair Display', serif;
     font-weight: 400;
-    font-style: italic; /* This adds the classy slanted look */
-    letter-spacing: 2px;
-    color: #1a1a2e; /* Matches the dark blue in your logo */
-    text-align: center;
-    margin-top: 40px;
+    font-style: italic;
+    text-align: center; /* This pushes it to the middle */
+    width: 100%;        /* This makes sure it centers across the whole screen */
+    margin: 40px 0;     /* This gives it space above and below */
+    color: #1a1a2e;
 }
 
 /* This makes your product names look fancy too */
