@@ -66,3 +66,12 @@ button {
 button:hover {
     background-color: #555;    /* Gray when you hover */
 }
+.product img {
+    width: 100%;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease; /* This makes a smooth effect */
+}
+
+.product:hover img {
+    transform: scale(1.05); /* The image zooms slightly when you touch it */
+}
