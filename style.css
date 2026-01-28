@@ -90,15 +90,21 @@ h1 {
 }
 
 button {
-    background-color: #ff0000 !important; /* Bright Red for testing */
-    color: white !important;
+    background-color: #FFD700 !important; /* The bright gold you wanted */
+    color: #1a1a2e !important;           /* Dark blue text */
     border: none;
     padding: 12px 24px;
     cursor: pointer;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.3s ease;               /* This makes the change smooth */
 }
 
 button:hover {
-    background-color: #FFCC00; /* Slightly deeper gold when you touch it */
+    background-color: #1a1a2e !important; /* Turns Midnight Blue on hover */
+    color: #FFD700 !important;           /* Text turns Gold on hover */
+    transform: scale(1.1);               /* Makes the button grow slightly */
 }
 .product img {
     width: 100%;
