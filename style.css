@@ -71,7 +71,10 @@ button {
 }
 
 button:hover {
-    background-color: #555;    /* Gray when you hover */
+    background-color: #d2b48c; /* A soft tan/earthy color */
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
 }
 .product img {
     width: 100%;
