@@ -1,15 +1,44 @@
+/* The "LaLune" Boutique Style */
 body {
-    font-family: sans-serif;
-    background-color: #f4f4f4;
-    text-align: center;
-    padding: 50px;
+    font-family: 'Georgia', serif; /* Elegant font */
+    background-color: #ffffff;    /* Clean white background */
+    color: #333;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
-    color: #333;
+    font-weight: normal;
+    letter-spacing: 4px;       /* Spaced out letters like a logo */
+    text-transform: uppercase;
+    margin-top: 50px;
+    text-align: center;
 }
 
-p {
-    color: #666;
-    font-size: 1.2rem;
+.product-container {
+    display: flex;             /* This puts products side-by-side */
+    justify-content: center;
+    padding: 20px;
+}
+
+.product {
+    border: 1px solid #eee;    /* Very light border */
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    background-color: #fafafa; /* Slightly off-white card */
+}
+
+button {
+    background-color: #333;    /* Black button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+button:hover {
+    background-color: #555;    /* Gray when you hover */
 }
