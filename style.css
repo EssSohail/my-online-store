@@ -54,12 +54,12 @@ body {
 }
 
 h1 {
-    width: 100%; /* This ensures it takes up the full width to center properly */
-    font-weight: normal;
-    letter-spacing: 4px;       /* Spaced out letters like a logo */
+    font-family: 'Georgia', serif; /* A classic, elegant look */
+    font-weight: 300;
+    letter-spacing: 4px;       /* Adds space between letters for a luxury feel */
     text-transform: uppercase;
-    margin-top: 50px;
-    text-align: center;
+    margin-top: 40px;
+    color: #333;
 }
 
 .product-container {
