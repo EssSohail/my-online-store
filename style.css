@@ -1,14 +1,14 @@
-.logo {
-    display: flex;
-    align-items: center;
+.logo-img {
+    width: 80px;          /* Making it a bit bigger */
+    height: 80px;
+    border-radius: 50%;   
+    object-fit: cover;    
+    border: 1px solid #eee; 
+    transition: 0.3s;     /* This makes it zoom slightly when hovered */
 }
 
-.logo-img {
-    width: 60px;          /* This size fits nicely in the nav bar */
-    height: 60px;
-    border-radius: 50%;   /* This turns the square image into a circle! */
-    object-fit: cover;    /* This ensures the moon art doesn't look squished */
-    border: 1px solid #ddd; /* A very light border to make it pop */
+.logo-img:hover {
+    transform: scale(1.1); /* A tiny "pop" when you touch it */
 }
 nav {
     display: flex;
