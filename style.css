@@ -150,11 +150,11 @@ footer {
 }
 
 .footer-link {
-    color: #f0e6d2;
-    text-decoration: none;
+    color: #f0e6d2;           /* This soft cream color matches your logo's moon */
+    text-decoration: none;    /* Removes the underline */
     font-family: 'Playfair Display', serif;
-    font-weight: bold;
-    display: block;
+    font-size: 1rem;
+    display: inline-block;
     margin-top: 10px;
 }
 
