@@ -134,28 +134,27 @@ footer {
     font-size: 0.7rem;
 }
 footer {
-    background-color: #1a1a2e; /* The dark blue from your logo */
-    color: #f0e6d2;           /* Elegant cream text */
+    background-color: #1a1a2e; /* Dark blue background from your logo */
+    color: #FFD700 !important; /* Force all text in the footer to be Gold */
     padding: 40px 0;
     text-align: center;
     margin-top: 50px;
-}
-
-footer {
-    background-color: #1a1a2e; /* Keeping the dark blue background */
-    color: #FFD700 !important; /* Changed from cream to Gold */
-    padding: 40px 0;
-    text-align: center;
-    margin-top: 50px;
+    font-family: 'Playfair Display', serif;
 }
 
 .footer-link {
-    color: #FFD700 !important; /* Changed from cream to Gold */
+    color: #FFD700 !important; /* Force the WhatsApp link to be Gold */
     text-decoration: none;
-    font-family: 'Playfair Display', serif;
-    font-size: 1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
     display: inline-block;
     margin-top: 10px;
+    transition: 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #ffffff !important; /* Turns white when you hover over the link */
+    text-decoration: underline;
 }
 .gold-btn {
     background-color: #FFD700 !important;
