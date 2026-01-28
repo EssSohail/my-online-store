@@ -98,6 +98,14 @@ h1 {
 .product:hover img {
     transform: scale(1.05); /* The image zooms slightly when you touch it */
 }
+.product p {
+    font-family: 'Playfair Display', serif; /* Matches your brand font */
+    color: #FFD700 !important;             /* The bright logo gold */
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
 footer {
     background-color: #fafafa;
     padding: 40px 20px;
