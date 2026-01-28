@@ -90,15 +90,11 @@ h1 {
 }
 
 button {
-    background-color: #FFD700 !important; /* Forces the bright gold */
-    color: #1a1a2e !important;           /* Forces the dark blue text */
+    background-color: #ff0000 !important; /* Bright Red for testing */
+    color: white !important;
     border: none;
     padding: 12px 24px;
     cursor: pointer;
-    font-family: 'Playfair Display', serif;
-    font-weight: bold;
-    text-transform: uppercase;
-    transition: 0.3s;
 }
 
 button:hover {
