@@ -43,6 +43,7 @@ h1 {
     display: flex;             /* This puts products side-by-side */
     justify-content: center;
     padding: 20px;
+    flex-wrap: wrap;
 }
 
 .product {
