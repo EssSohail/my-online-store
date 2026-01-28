@@ -4,16 +4,16 @@
 }
 
 .logo-img {
-    width: 80px;          /* Increased for better visibility */
-    height: 80px;
+    width: 90px;          /* Increased size so it's easier to see */
+    height: 90px;
     border-radius: 50%;   /* Keeps it circular */
     object-fit: cover;    
-    border: 1px solid #eee; 
-    transition: 0.3s;     /* Smoothly animates the hover */
+    border: 1px solid #ddd; 
+    transition: 0.3s;     /* This adds a smooth feel when you hover */
 }
 
 .logo-img:hover {
-    transform: scale(1.1); /* Makes the moon grow slightly when you hover! */
+    transform: scale(1.1); /* Makes the logo "pop" when you touch it! */
 }
 nav {
     display: flex;
