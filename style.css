@@ -54,13 +54,22 @@ body {
     padding: 0;
 }
 
+/* This updates your main "WELCOME TO MY STORE" heading */
 h1 {
-    font-family: 'Georgia', serif; /* A classic, elegant look */
-    font-weight: 300;
-    letter-spacing: 4px;       /* Adds space between letters for a luxury feel */
-    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-style: italic; /* This adds that slanted, elegant look from your image */
+    letter-spacing: 2px;
+    text-transform: none; /* Keeps it looking natural like your sample */
+    color: #1a1a2e; /* A very dark blue to match your logo background */
     margin-top: 40px;
-    color: #333;
+    text-align: center;
+}
+
+/* This makes your product names look fancy too */
+.product-item h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
 }
 
 .product-container {
