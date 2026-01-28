@@ -46,11 +46,17 @@
     <script>
         let count = 0;
         function addToBag() {
-            count++;
-            alert("Item added to your bag!");
-            // Updates the 4th link in your menu (the Bag)
-            document.querySelectorAll('nav ul li a')[3].innerText = "Bag (" + count + ")";
+        count++;
+        // Updates the bag counter
+        document.querySelectorAll('nav ul li a')[3].innerText = "Bag (" + count + ")";
+        
+        // A personalized message
+        if (count === 1) {
+            alert("Great choice! Your first item is in the bag.");
+        } else {
+            alert("Added! You now have " + count + " items in your bag.");
         }
+    }
     </script>
 
 </body>
