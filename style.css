@@ -163,3 +163,20 @@ footer {
 .footer-link:hover {
     text-decoration: underline;
 }
+.gold-btn {
+    background-color: #FFD700 !important;
+    color: #1a1a2e !important;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    display: inline-block;
+    transition: all 0.3s ease !important; /* This is the secret for smooth hovering */
+}
+
+.gold-btn:hover {
+    background-color: #1a1a2e !important; /* Turns blue on hover */
+    color: #FFD700 !important;           /* Text turns gold on hover */
+    transform: scale(1.1) !important;    /* Makes the button grow slightly */
+}
