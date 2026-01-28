@@ -90,18 +90,22 @@ h1 {
 }
 
 button {
-    background-color: #1a1a2e; /* Midnight blue to match your logo */
-    color: white;
+    background-color: #d4af37; /* A classic metallic Gold color */
+    color: #1a1a2e;           /* Dark Midnight Blue text for contrast */
     border: none;
-    padding: 10px 20px;
+    padding: 12px 24px;
     cursor: pointer;
-    font-family: 'Playfair Display', serif; /* Matching your brand font */
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
     transition: 0.3s;
 }
 
 button:hover {
-    background-color: #333;   /* Turns slightly lighter when you touch it */
-    transform: translateY(-2px); /* Gives it a tiny lift effect */
+    background-color: #f0e6d2; /* Turns to a soft cream gold when hovered */
+    color: #1a1a2e;
+    transform: scale(1.05);    /* Makes the button grow slightly when touched */
 }
 .product img {
     width: 100%;
