@@ -35,10 +35,12 @@ nav ul li {
     margin-left: 30px;
 }
 
+/* This makes your navigation links match the new style */
 nav ul li a {
+    font-family: 'Playfair Display', serif;
     text-decoration: none;
     color: #333;
-    font-size: 0.9rem;
+    font-size: 1rem;
     letter-spacing: 1px;
     transition: 0.3s;
 }
@@ -54,16 +56,15 @@ body {
     padding: 0;
 }
 
-/* This updates your main "WELCOME TO MY STORE" heading */
+/* This changes your main "WELCOME TO MY STORE" heading */
 h1 {
     font-family: 'Playfair Display', serif;
     font-weight: 400;
-    font-style: italic; /* This adds that slanted, elegant look from your image */
+    font-style: italic; /* This adds the classy slanted look */
     letter-spacing: 2px;
-    text-transform: none; /* Keeps it looking natural like your sample */
-    color: #1a1a2e; /* A very dark blue to match your logo background */
-    margin-top: 40px;
+    color: #1a1a2e; /* Matches the dark blue in your logo */
     text-align: center;
+    margin-top: 40px;
 }
 
 /* This makes your product names look fancy too */
