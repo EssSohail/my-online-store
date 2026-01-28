@@ -19,8 +19,9 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
-    border-bottom: 1px solid #eee;
+    padding: 20px 8%; /* Increased the side padding for a cleaner look */
+    background-color: #fff;
+    border-bottom: 1px solid #f9f9f9;
 }
 
 nav ul {
