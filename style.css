@@ -90,20 +90,18 @@ h1 {
 }
 
 button {
-    background-color: #333;    /* Black button */
+    background-color: #1a1a2e; /* Midnight blue to match your logo */
     color: white;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
-    text-transform: uppercase;
-    font-size: 0.8rem;
+    font-family: 'Playfair Display', serif; /* Matching your brand font */
+    transition: 0.3s;
 }
 
 button:hover {
-    background-color: #d2b48c; /* A soft tan/earthy color */
-    color: white;
-    cursor: pointer;
-    transition: 0.4s;
+    background-color: #333;   /* Turns slightly lighter when you touch it */
+    transform: translateY(-2px); /* Gives it a tiny lift effect */
 }
 .product img {
     width: 100%;
