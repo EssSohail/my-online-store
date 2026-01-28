@@ -141,17 +141,21 @@ footer {
     margin-top: 50px;
 }
 
+footer {
+    background-color: #1a1a2e; /* Keeping the dark blue background */
+    color: #FFD700 !important; /* Changed from cream to Gold */
+    padding: 40px 0;
+    text-align: center;
+    margin-top: 50px;
+}
+
 .footer-link {
-    color: #f0e6d2;           /* This soft cream color matches your logo's moon */
-    text-decoration: none;    /* Removes the underline */
+    color: #FFD700 !important; /* Changed from cream to Gold */
+    text-decoration: none;
     font-family: 'Playfair Display', serif;
     font-size: 1rem;
     display: inline-block;
     margin-top: 10px;
-}
-
-.footer-link:hover {
-    text-decoration: underline;
 }
 .gold-btn {
     background-color: #FFD700 !important;
