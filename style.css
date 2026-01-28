@@ -61,9 +61,10 @@ h1 {
     font-family: 'Playfair Display', serif;
     font-weight: 400;
     font-style: italic;
-    text-align: center; /* This pushes it to the middle */
-    width: 100%;        /* This makes sure it centers across the whole screen */
-    margin: 40px 0;     /* This gives it space above and below */
+    text-align: center;
+    display: block;   /* Force it to take up its own line */
+    margin: 40px auto; /* 'auto' on the sides tells it to find the center */
+    width: 100%;
     color: #1a1a2e;
 }
 
