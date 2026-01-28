@@ -82,3 +82,30 @@ button:hover {
 .product:hover img {
     transform: scale(1.05); /* The image zooms slightly when you touch it */
 }
+footer {
+    background-color: #fafafa;
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 1px solid #eee;
+    margin-top: 60px;
+}
+
+.footer-content h3 {
+    letter-spacing: 3px;
+    font-size: 1rem;
+}
+
+.socials {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.socials li a {
+    text-decoration: none;
+    color: #999;
+    font-size: 0.7rem;
+}
