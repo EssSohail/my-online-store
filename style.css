@@ -90,22 +90,19 @@ h1 {
 }
 
 button {
-    background-color: #d4af37; /* A classic metallic Gold color */
-    color: #1a1a2e;           /* Dark Midnight Blue text for contrast */
+    background-color: #FFD700; /* This is 'Gold' - much brighter than cream */
+    color: #1a1a2e;           /* Dark blue text so it is easy to read */
     border: none;
     padding: 12px 24px;
     cursor: pointer;
     font-family: 'Playfair Display', serif;
     font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 1px;
     transition: 0.3s;
 }
 
 button:hover {
-    background-color: #f0e6d2; /* Turns to a soft cream gold when hovered */
-    color: #1a1a2e;
-    transform: scale(1.05);    /* Makes the button grow slightly when touched */
+    background-color: #FFCC00; /* Slightly deeper gold when you touch it */
 }
 .product img {
     width: 100%;
